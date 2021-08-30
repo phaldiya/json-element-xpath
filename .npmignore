@@ -25,10 +25,16 @@ package-lock.json
 npm-debug.log
 
 #Test results
-test/reporter
+test/
 
 # API Docs
 public/docs
 
-.history
+.history/
 yarn-error.log
+
+
+.editorconfig
+.gitignore
+yarn.lock
+.zip
