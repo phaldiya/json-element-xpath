@@ -40,4 +40,12 @@ describe('Json Element XPath', () => {
   it('should return null when key is null', () => {
     expect(getXPath(data, null)).toStrictEqual(null);
   });
+
+  it('should return [] when object is null with multiple', () => {
+    expect(getXPath(null, 'c', true)).toStrictEqual([]);
+  });
+
+  it('should return [] when key is null with multiple', () => {
+    expect(getXPath(data, null, true)).toStrictEqual([]);
+  });
 });

@@ -1,53 +1,53 @@
 {
-    "name": "json-xpath",
-    "version": "0.0.1",
-    "description": "A javascript utility to provide xpath of the element deep in the the object.",
-    "main": "index.js",
-    "types": "index.d.ts",
-    "author": "Pradeep K Haldiya <pradeep.haldiya@gmail.com>",
-    "license": "MIT",
-    "private": false,
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/phaldiya/json-xpath.git"
-    },
-    "bugs": {
-        "url": "https://github.com/phaldiya/json-xpath/issues"
-    },
-    "homepage": "https://github.com/phaldiya/json-xpath#readme",
-    "directories": {
-        "test": "test"
-    },
-    "scripts": {
-        "test": "jest --passWithNoTests"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "jest": "27.0.6"
-    },
-    "jest": {
-        "coveragePathIgnorePatterns": [
-            "/node_modules/"
-        ],
-        "testEnvironment": "node",
-        "testMatch": [
-            "**/*.(integration|spec).js"
-        ]
-    },
-    "keywords": [
-        "javascript",
-        "json",
-        "path",
-        "xpath",
-        "object",
-        "ts",
-        "typescript",
-        "types",
-        "typing",
-        "typings",
-        "hierarchy",
-        "object-hierarchy",
-        "pradeep",
-        "haldiya"
+  "name": "json-xpath",
+  "version": "0.0.2",
+  "description": "A javascript utility to provide xpath of the element deep in the the object.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": "Pradeep K Haldiya <pradeep.haldiya@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaldiya/json-xpath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phaldiya/json-xpath/issues"
+  },
+  "homepage": "https://github.com/phaldiya/json-xpath#readme",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "27.0.6"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/*.(integration|spec).js"
     ]
+  },
+  "keywords": [
+    "javascript",
+    "json",
+    "path",
+    "xpath",
+    "object",
+    "ts",
+    "typescript",
+    "types",
+    "typing",
+    "typings",
+    "hierarchy",
+    "object-hierarchy",
+    "pradeep",
+    "haldiya"
+  ]
 }

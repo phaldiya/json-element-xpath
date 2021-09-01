@@ -1,7 +1,7 @@
 
 const getObjectPath = (obj, targetKey, multiple = false, parentKey = []) => {
   if (!obj || !targetKey || typeof obj !== 'object') {
-    return null;
+    return multiple ? [] : null;
   }
   const result = [];
 

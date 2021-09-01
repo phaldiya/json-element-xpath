@@ -72,11 +72,14 @@ const data = {
 
 getXPath(data, 'a1'); // 'a1'
 getXPath(data, 'c');  // 'a.b.c'
+getXPath(null, 'c');  // null
+getXPath(data, null);  // null
 
 /* pass multiple flag to get all matching xpath */
-getXPath(data, 'a1'); // ['a1', 'a.f.h.0.a1']
+getXPath(data, 'a1', true); // ['a1', 'a.f.h.0.a1']
 getXPath(data, 'c', true); // ['a.b.c']
-
+getXPath(null, 'c', true); // []
+getXPath(data, null, true); // []
 ```
 
 
